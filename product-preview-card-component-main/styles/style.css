@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: var(--dark-cyan);
+    color: var(--white);
+}
+
+:root {
+    /* Primary Colors */
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+
+    /* Neutral Colors */
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: var(--cream);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+section {
+    max-width: 690px;
+    min-width: 600px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+    background-color: var(--white);
+    border-radius: 10px;
+
+}
+
+.product {
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    height: 100%;
+
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+    object-fit: cover;
+    object-position: top;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 40px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product-info p:nth-child(1) {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--dark-grayish-blue);
+}
+
+.product-info h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 2.2em;
+    color: var(--very-dark-blue);
+    text-transform: capitalize;
+}
+
+.product-info p.description {
+    color: var(--dark-grayish-blue);
+    line-height: 24px;
+}
+
+.product-info .price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-info .price h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 2.2em;
+    color: var(--dark-cyan);
+}
+
+.product-info .price span {
+    font-size: 1em;
+    color: var(--dark-grayish-blue);
+    text-decoration: line-through;
+}
+
+.product-info .purchase {
+    text-decoration: none;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--dark-cyan);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.product-info .purchase:hover {
+    background-color: hsl(156, 42%, 18%);
+}
+
+.product-info .purchase img {
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+}

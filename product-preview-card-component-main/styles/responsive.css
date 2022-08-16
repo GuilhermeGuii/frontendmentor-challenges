@@ -1,0 +1,37 @@
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    section {
+        max-width: 375px;
+        min-width: 280px;
+        width: 90vw;
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: auto max-content;
+    }
+
+    .product {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+
+    .product img {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+
+    .product-info {
+        gap: 15px;
+        padding: 20px;
+    }
+
+    product-info p.description {
+        line-height: 18px;
+    }
+
+    .product-info .purchase {
+        padding: 15px
+    }
+}

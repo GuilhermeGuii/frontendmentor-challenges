@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product preview card component</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+
+<body>
+  <!-- Card Preview Section -->
+  <section>
+    <!-- Product Image  -->
+    <div id="img-container" class="product">
+      <picture>
+        <source media="(max-width: 600px )" srcset="images\image-product-mobile.jpg" type="image/jpeg">
+        <img src="images/image-product-desktop.jpg" alt="Image product">
+      </picture>
+    </div>
+
+    <!-- Product Informations -->
+    <div class="product-info">
+      <p>Perfume</p>
+      <h1>Gabrielle essence eau de parfum</h1>
+      <p class="description">A floral solar and voluptous interpretation composed by Oliver Polge, Perfumer-Creator for
+        the house of CHANEL.</p>
+
+      <div class="price">
+        <h2>$149.99 </h2>
+        <span>$169.99</span>
+      </div>
+
+      <a class="purchase" href="#"><img src="images/icon-cart.svg" alt="Shopping Cart"><strong>Add to cart</strong></a>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/GuilhermeGuii" target="_blank">Guilherme Dos Santos Ferreira</a>.
+    </div>
+  </footer>
+</body>
+</html>

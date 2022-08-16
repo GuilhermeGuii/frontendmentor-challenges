@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-solution-with-my-knowledge-JSuHRgbPFC)
 - Live Site URL: [Product preview card component](https://frontendmentor-challenges-01-guii.netlify.app/)
 
 ## My process

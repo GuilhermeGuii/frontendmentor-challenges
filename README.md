@@ -9,7 +9,7 @@ These are the challenges which I solved from Frontend Mentor to improve my skill
 
 ## Challenges
 
-- [Product preview card component]() - **Working**
+- [Product preview card component](https://github.com/GuilhermeGuii/frontendmentor-challenges/tree/main/product-preview-card-component-main) - **Completed** :heavy_check_mark: [Demo](https://frontendmentor-challenges-01-guii.netlify.app/)
 
 
 ## Tech Stack
